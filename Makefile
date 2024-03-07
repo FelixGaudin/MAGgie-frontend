@@ -4,3 +4,6 @@ install:
 format:
 	isort *.py
 	black *.py
+
+run:
+	flask run
